@@ -14,13 +14,12 @@ The **Personal Fitness Tracker** is a Python-based application designed to help 
 - **Python** 🐍
 - **Pandas** – Data handling and analysis
 - **Matplotlib & Seaborn** – Data visualization
-- **Jupyter Notebook** – Implementation and testing
 - **CSV Files** – Data storage
 
 ## 📂 Project Structure
 ```
-Personal-Fitness-Tracker/
-│── fitness_tracker.ipynb   # Jupyter Notebook implementation
+Fitness_Tracker/
+│── app.py                  # Main application file
 │── calories.csv            # Sample calorie tracking data
 │── exercise.csv            # Sample exercise tracking data
 │── requirements.txt        # List of required dependencies
@@ -40,18 +39,17 @@ Summarizes fitness progress with statistical analysis, helping users make inform
 ## 📦 Installation & Usage
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/Personal-Fitness-Tracker.git
+   git clone https://github.com/xadarsh/Personal-Fitness-Tracker.git
    cd Personal-Fitness-Tracker
    ```
 2. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
    ```
-3. **Run the Jupyter Notebook**
+3. **Run the Application**
    ```bash
-   jupyter notebook
+   python -m sklearn app.py
    ```
-4. **Open `fitness_tracker.ipynb` and execute the cells**
 
 ## 📜 Conclusion
 The **Personal Fitness Tracker** empowers users with data-driven insights to improve their fitness journey. By integrating simple tracking, visualization, and analysis, this project provides a solid foundation for more advanced fitness management applications. It enhances personal health awareness and enables users to make informed fitness decisions effectively.
